@@ -1,0 +1,41 @@
+.header{
+
+    flex-basis: 10%;
+    /* background: whitesmoke; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    /* background: darkgreen;  */
+    
+    padding: 0px;
+    box-sizing:  border-box;
+    font-family: sans-serif;
+    color: rgb(43, 16, 16);
+  }
+  .header-logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Dancing Script' ,cursive;
+    font-size: 15px;
+  }
+  .navmenu ul{
+    display: flex;
+  }
+  .navmenu ul li{
+    list-style: none;
+    margin :0px 10px;
+  }
+  .navmenu ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    
+  }
+  .navmenu ul li a:hover , .active {
+  background: white;
+  border :1px solid black;
+  border-radius: 4px;
+  }
