@@ -1,5 +1,78 @@
-.midbox{
-    height: 300px;
-    width: 600px;
-border:  3px solid green;
-}
+
+.middle-box{
+    margin-top: -100px;
+    /* margin-bottom: 30px; */
+    /* background:rgba(86, 133, 72, 0.8); */
+    height: 150px;
+    width: 100%;
+    
+    /* border: 5px solid rgba(219, 43, 48, 0.8); */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+  .middle-box-inside{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 90%;
+    height: 150px;
+    display: flex;
+  }
+  /* --------------------------------------------------------- */
+  .middle-box-inside > div{
+    width: 34%;
+    height: 150px;
+    border: 2px solid #ddd;
+  }
+  
+  .left-box{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px;
+    
+    
+  }
+  .left-box h3{
+    width: 70%; 
+   
+    
+  }
+  /* ------------------------------------------------------------ */
+  .middle-box{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .middle-box h3{
+    align-self: flex-end; 
+  }
+  .text-color3{
+    
+    color: rgb(102, 188, 238);
+    font-size: 10px;
+    width: 100%;
+    
+  }
+  .text-color{
+    border:3px gray;
+    
+   
+  }
+  
+  /* -------------------------------------------------------------- */
+  .right-box{
+    align-self: flex-end;
+  }
+  /* --------------------------------------------------------- */
+  .middle-box img{
+    border-radius: 15px;
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+  }

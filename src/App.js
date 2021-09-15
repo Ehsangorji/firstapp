@@ -15,10 +15,11 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        <Menu></Menu>
+        <Menu className="menu1"></Menu>
+        <MiddleBox></MiddleBox>
 
+        {/* 
 
-        {/* <MiddleBox></MiddleBox>
         <Footer></Footer>
         
         <Top></Top> */}
@@ -137,22 +138,7 @@ export default App;
            </div>   
       </div> */}
       {/* <div class ="container">
-        <div class ="header">
-
-          <div class = "logo">
-              MRstudio
-          </div>
-
-          <div class= "navmenu">
-              <ul>
-                  <li> <a herf ="#">Home</a></li>
-                  <li> <a herf ="#">About</a></li>
-                  <li> <a herf ="#">Type of house</a></li>
-                  <li> <a herf ="#">Contact</a></li>
-                  <li> <a herf ="#" class="active">Login</a></li>
-              </ul>
-          </div>
-        </div>
+        
 
         <div class = "content-image">
             <div class="main-image">

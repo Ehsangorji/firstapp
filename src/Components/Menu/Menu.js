@@ -3,13 +3,13 @@ import './Menu.css';
 
 function Menu() {
   return(
-    <div class ="header">
+    <div className ="header">
 
-    <div class = "logo">
+    <div className = "logo">
         MRstudio
     </div>
 
-    <div class= "navmenu">
+    <div className= "navmenu">
         <ul>
             <li> <a herf ="#">Home</a></li>
             <li> <a herf ="#">About</a></li>
